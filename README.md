@@ -18,11 +18,15 @@ HikarCP据说是现在最快的数据连接池
   1.在properties中配置
     数据库的基本连接信息
     然后数据源 datasource:type选择 Hikari
+
   2.在yml配置
+
     一样的 就是yml比properties好用
+
   3.配置好信息就可以直接使用了
 
   启动项目的时候可以看到HikariCP的信息输出
+
   2019-01-07 00:42:14.123  INFO 6412 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2019-01-07 00:42:14.211  INFO 6412 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 
