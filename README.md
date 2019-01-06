@@ -15,11 +15,11 @@ HikarCP据说是现在最快的数据连接池
 
 2.配置
 
-  1.在properties中配置
-    数据库的基本连接信息
-    然后数据源 datasource:type选择 Hikari
+    1.在properties中配置
+      数据库的基本连接信息
+      然后数据源 datasource:type选择 Hikari
 
-  2.在yml配置
+    2.在yml配置
 
     一样的 就是yml比properties好用
 
